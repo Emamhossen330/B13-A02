@@ -715,6 +715,9 @@ footer{
     height: 32px;
     width: 218px;
   }
-
+.logo-footer{
+    font-size: 30px;
+    padding: 25px;
+}
 
 }
