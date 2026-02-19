@@ -466,6 +466,54 @@ button{
 }
 
 
+/* footer section */
+
+footer{
+    background:url(./assets/footer-bg.png);
+    background-position:center;
+    padding: 120px 0;
+}
+
+.footer-container{
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 62px;
+}
+
+.logo-footer{
+    font-size: 45px;
+}
+
+.footer-container .footer-social{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 32px 0;
+}
+
+.footer-social .footer-link{
+    display: flex;
+    gap: 8px;
+}
+
+.footer-social p{
+    color: white;
+    opacity: 60%;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-container .copyright{
+    color: white;
+    font-size: 16px;
+    opacity: 60%;
+    line-height: 24px;
+}
+
+
+
 
 
 
@@ -534,7 +582,7 @@ button{
   }
 
 
-    /* responsive about section */
+    /*about section */
 
   .about .about-container{
     width: 90%;
@@ -559,7 +607,7 @@ button{
   }
 
 
-    /* responsive features section */
+    /* responsive features*/
 
   .features{
     padding-top: 40px;
@@ -594,7 +642,7 @@ button{
     font-size: 1.37rem;
   }
 
-    /* responsive episode-host section */
+    /*episode-host*/
 
   .episode-host{
     padding-top: 40px;
@@ -643,5 +691,30 @@ button{
   .episode-host .host-content h4{
     font-size: 24px;
   }
+
+   /*footer */
+
+  footer{
+    padding: 40px 20px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .footer-container{
+    width: 90%;
+  }
+
+  .footer-container .footer-social{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .footer-container .logo-footer{
+    height: 32px;
+    width: 218px;
+  }
+
 
 }
